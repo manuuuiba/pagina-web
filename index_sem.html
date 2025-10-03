@@ -2,45 +2,67 @@
 <html lang="en">
 <head>
     <style>
-    body { font-family: Arial, sans-serif; margin: 0; }
-    header, footer { background-color: #333; color: white; padding: 15px; text-align: center; }
-    nav { background: #555; padding: 10px; }
-    nav a { color: white; margin: 0 10px; text-decoration: none; }
-    main { padding: 20px; }
-    section { margin-bottom: 20px; }
-    h2 { color: #ffffff; }
-    article {
-  background-color: #f9f9f9;   /* Fondo claro para diferenciarlo del main */
-  border: 1px solid #ddd;      /* Borde suave */
-  padding: 15px;               /* Espaciado interno */
-  margin-bottom: 20px;         /* Separación entre artículos */
-  border-radius: 5px;          /* Bordes redondeados */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra ligera */
+    /* Fondo de header y footer en verde oscuro */
+header, footer {
+  background-color: #004d25;
+  color: #00cc66; /* Letras en verde claro */
+  padding: 15px;
+  text-align: center;
+}
+
+/* Barra de navegación */
+nav {
+  background: #006633; /* Verde medio-oscuro */
+  padding: 10px;
+}
+
+nav a {
+  color: #ccffcc; /* Verde claro para los links */
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00cc66; /* Resalta con verde brillante */
+}
+
+/* Títulos principales */
+h2 {
+  color: #004d25; /* Verde oscuro */
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  border-bottom: 2px solid #00cc66; /* Línea con verde claro */
+  padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+  color: #000000;   /* Negro para máxima legibilidad */
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Artículos tipo tarjeta */
+article {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 article h3 {
-  color: #016214;                 /* Mantener coherencia con h2 */
-  margin-top: 0;               /* Elimina margen superior */
+  color: #004d25;   /* Verde oscuro */
+  margin-top: 0;
 }
 
 article p {
-  line-height: 1.6;            /* Mejor legibilidad */
-  color: #005204;                 /* Texto gris para contraste */
-}
-h2 {
-  color: #15ff00;               /* Ya definido, pero reforzamos */
-  margin-bottom: 10px;       /* Espacio inferior */
-  font-size: 1.8em;          /* Tamaño destacado */
-  border-bottom: 2px solid #555; /* Línea sutil para resaltar */
-  padding-bottom: 5px;       /* Espacio con el borde */
+  color: #333;      /* Texto gris oscuro */
 }
 
-p {
-  color: #ffffff;               /* Gris intermedio para contraste */
-  line-height: 1.6;          /* Mejor legibilidad */
-  margin-bottom: 15px;       /* Separación entre párrafos */
-  text-align: justify;       /* Alineación justificada */
-}
 
   </style>
     <meta charset="UTF-8">
